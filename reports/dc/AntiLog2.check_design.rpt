@@ -1,0 +1,29 @@
+ 
+****************************************
+check_design summary:
+Version:     L-2016.03-SP5-5
+Date:        Thu Jun 28 20:55:29 2018
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                               15
+    Unloaded nets (LINT-2)                                         15
+--------------------------------------------------------------------------------
+
+Warning: In design 'AntiLog2', net 'net150' driven by pin 'sll_27/Z_0' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net149' driven by pin 'sll_27/Z_1' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net148' driven by pin 'sll_27/Z_2' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net147' driven by pin 'sll_27/Z_3' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net146' driven by pin 'sll_27/Z_4' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net145' driven by pin 'sll_27/Z_5' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net144' driven by pin 'sll_27/Z_6' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net143' driven by pin 'sll_27/Z_7' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net142' driven by pin 'sll_27/Z_8' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net141' driven by pin 'sll_27/Z_9' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net140' driven by pin 'sll_27/Z_10' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net139' driven by pin 'sll_27/Z_11' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net138' driven by pin 'sll_27/Z_12' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net137' driven by pin 'sll_27/Z_13' has no loads. (LINT-2)
+Warning: In design 'AntiLog2', net 'net136' driven by pin 'sll_27/Z_14' has no loads. (LINT-2)
+1

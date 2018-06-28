@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : AntiLog2
+Version: L-2016.03-SP5-5
+Date   : Thu Jun 28 20:56:05 2018
+****************************************
+
+Library(s) Used:
+
+    C28SOI_SC_12_CORE_LL (File: /usr/local/cmos28fdsoi_24/C28SOI_SC_12_CORE_LL@2.2@20131004.0/libs/C28SOI_SC_12_CORE_LL_ss28_0.80V_0.00V_0.00V_0.00V_125C.db)
+
+Number of ports:                           35
+Number of nets:                           456
+Number of cells:                          445
+Number of combinational cells:            394
+Number of sequential cells:                51
+Number of macros/black boxes:               0
+Number of buf/inv:                         58
+Number of references:                      23
+
+Combinational area:                273.360002
+Buf/Inv area:                       18.931201
+Noncombinational area:             116.524803
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   389.884805
+Total area:                 undefined
+1

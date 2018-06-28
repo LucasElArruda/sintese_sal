@@ -1,0 +1,99 @@
+Information: Changed wire load model for 'DW_leftsh' from '(none)' to 'wl_zero'. (OPT-170)
+Information: Changed wire load model for '*ASH_UNS_UNS_OP_39_4_39' from '(none)' to 'wl_zero'. (OPT-170)
+Information: Updating design information... (UID-85)
+Warning: Design 'AntiLog2' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+DOUT[0]
+DOUT[1]
+DOUT[2]
+DOUT[3]
+DOUT[4]
+DOUT[5]
+DOUT[6]
+DOUT[7]
+DOUT[8]
+DOUT[9]
+DOUT[10]
+DOUT[11]
+DOUT[12]
+DOUT[13]
+DOUT[14]
+DOUT[15]
+DOUT[16]
+DOUT[17]
+DOUT[18]
+DOUT[19]
+DOUT[20]
+DOUT[21]
+DOUT[22]
+DOUT[23]
+DOUT_reg[0]/next_state
+DOUT_reg[1]/next_state
+DOUT_reg[2]/next_state
+DOUT_reg[3]/next_state
+DOUT_reg[4]/next_state
+DOUT_reg[5]/next_state
+DOUT_reg[6]/next_state
+DOUT_reg[7]/next_state
+DOUT_reg[8]/next_state
+DOUT_reg[9]/next_state
+DOUT_reg[10]/next_state
+DOUT_reg[11]/next_state
+DOUT_reg[12]/next_state
+DOUT_reg[13]/next_state
+DOUT_reg[14]/next_state
+DOUT_reg[15]/next_state
+DOUT_reg[16]/next_state
+DOUT_reg[17]/next_state
+DOUT_reg[18]/next_state
+DOUT_reg[19]/next_state
+DOUT_reg[20]/next_state
+DOUT_reg[21]/next_state
+DOUT_reg[22]/next_state
+DOUT_reg[23]/next_state
+LUTout_reg[0]/next_state
+LUTout_reg[1]/next_state
+LUTout_reg[2]/next_state
+LUTout_reg[3]/next_state
+LUTout_reg[4]/next_state
+LUTout_reg[5]/next_state
+LUTout_reg[6]/next_state
+LUTout_reg[7]/next_state
+LUTout_reg[8]/next_state
+LUTout_reg[9]/next_state
+LUTout_reg[10]/next_state
+LUTout_reg[11]/next_state
+LUTout_reg[12]/next_state
+LUTout_reg[13]/next_state
+LUTout_reg[14]/next_state
+LUTout_reg[15]/next_state
+LUTout_reg[16]/next_state
+LUTout_reg[17]/next_state
+LUTout_reg[18]/next_state
+LUTout_reg[19]/next_state
+LUTout_reg[20]/next_state
+LUTout_reg[21]/next_state
+LUTout_reg[22]/next_state
+barrelshfcnt_reg[0]/next_state
+barrelshfcnt_reg[1]/next_state
+barrelshfcnt_reg[2]/next_state
+barrelshfcnt_reg[3]/next_state
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1
