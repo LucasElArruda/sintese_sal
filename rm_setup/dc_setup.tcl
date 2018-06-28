@@ -93,7 +93,7 @@ if {$synopsys_program_name == "dc_shell"}  {
 
 
 set RTL_SOURCE_FILES  "\
-$DESIGN_REF_DATA_PATH/fast_verilog/trunk/AntiLog2.v \
+$DESIGN_REF_DATA_PATH/fast_antilog/trunk/AntiLog2.v \
 "      ; # Enter the list of source RTL files if reading from RTL
 #################################################################################
 # Search Path Setup
