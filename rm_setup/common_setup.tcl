@@ -7,11 +7,11 @@ puts "RM-Info: Running script [info script]\n"
 # Copyright (C) 2007-2016 Synopsys, Inc. All rights reserved.
 ##########################################################################################
 
-set DESIGN_NAME                   "bcd"; #The name of the top-level design
+set DESIGN_NAME                   "Antilog2"; #The name of the top-level design
 
 set LIB_DATA                      "/usr/local/cmos28fdsoi_24"
 
-set DESIGN_REF_DATA_PATH          "..//"  ;
+set DESIGN_REF_DATA_PATH          "../"  ;
 
 ##########################################################################################
 # Hierarchical Flow Design Variables

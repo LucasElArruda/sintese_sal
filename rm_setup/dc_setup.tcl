@@ -93,43 +93,20 @@ if {$synopsys_program_name == "dc_shell"}  {
 
 
 set RTL_SOURCE_FILES  "\
-$DESIGN_REF_DATA_PATH/rtl/bcd.sv \
-$DESIGN_REF_DATA_PATH/rtl/bcd_core.sv \
-$DESIGN_REF_DATA_PATH/rtl/filter_set.sv \
-$DESIGN_REF_DATA_PATH/rtl/filter_unit.sv \
-$DESIGN_REF_DATA_PATH/rtl/ifft1k.sv \
-$DESIGN_REF_DATA_PATH/rtl/ifft_serial.sv \
-$DESIGN_REF_DATA_PATH/rtl/fft1k.sv \
-$DESIGN_REF_DATA_PATH/rtl/fft_serial.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf8_serial.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf2_fifo.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf2i_serial.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf2ii_serial.sv \
-$DESIGN_REF_DATA_PATH/rtl/fft128.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf8.sv \
-$DESIGN_REF_DATA_PATH/rtl/twm128.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf16.sv \
-$DESIGN_REF_DATA_PATH/rtl/twm16.sv \
-$DESIGN_REF_DATA_PATH/rtl/bf4.sv \
-$DESIGN_REF_DATA_PATH/rtl/rnd.sv \
-$DESIGN_REF_DATA_PATH/rtl/sat.sv \
-$DESIGN_REF_DATA_PATH/rtl/twm1k.sv \
-$DESIGN_REF_DATA_PATH/rtl/twm1k_mult.sv \
-$DESIGN_REF_DATA_PATH/rtl/rnd_sat.sv"      ; # Enter the list of source RTL files if reading from RTL
+$DESIGN_REF_DATA_PATH/fast_verilog/trunk/AntiLog2.v \
+"      ; # Enter the list of source RTL files if reading from RTL
 #################################################################################
 # Search Path Setup
 #
 # Set up the search path to find the libraries and design files.
 #################################################################################
 
-  set_app_var search_path ". ${ADDITIONAL_SEARCH_PATH} $search_path"
 
   # For a hierarchical flow, add the block-level results directories to the
   # search path to find the block-level design files.
 
 #  set HIER_DESIGNS "${DDC_HIER_DESIGNS} ${DC_BLOCK_ABSTRACTION_DESIGNS} ${DC_BLOCK_ABSTRACTION_DESIGNS_TIO}"
 #  foreach design $HIER_DESIGNS {
-    lappend search_path ../../../structural/dc
 #  }
 
 #################################################################################

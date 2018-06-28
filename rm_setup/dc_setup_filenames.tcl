@@ -9,14 +9,14 @@ set DAY   [clock format [clock seconds] -format "%d"]
 # The following variables are used by scripts in the rm_dc_scripts folder to direct 
 # the location of the output files.
 
-set REPORTS_DIR 	"../../../reports"
-set CONSTRAINTS_DIR "../../../constraints"
-set RESULTS_DIR 	"../../../structural"
-set LOGS_DIR 		"../../../logs"
-set PHYSICAL_DIR 	"../../../physical"
-set POWER_DIR 		"../../../power"
-set PARASITICS_DIR 	"../../../parasitics"
-set TIMING_DIR 		"../../../timing"
+set REPORTS_DIR 	"../reports"
+set CONSTRAINTS_DIR     "../constraints"
+set RESULTS_DIR 	"../structural"
+set LOGS_DIR 		"../logs"
+set PHYSICAL_DIR 	"../physical"
+set POWER_DIR 		"../power"
+set PARASITICS_DIR 	"../parasitics"
+set TIMING_DIR 		"../timing"
 
 file mkdir ${REPORTS_DIR}
 file mkdir ${CONSTRAINTS_DIR}
